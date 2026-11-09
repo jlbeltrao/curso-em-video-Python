@@ -1,5 +1,5 @@
-nome = input("Qual é o seu nome? ")
-#idade = int(input("Digite sua idade: "))
-#peso = float(input("Digite seu peso: "))
-
-print('Seja bem vindo ' + nome + '! Prazer em te conhecer!')
+print("Digite sua data de nascimento:") 
+dia = input("Digite o dia: ")
+mes = input("Digite o mês: ")
+ano = input("Digite o ano: ")
+print("Você nasceu no dia " + dia + " de " + mes + " de " + ano + ". Correto?")
