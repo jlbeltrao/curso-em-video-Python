@@ -1,5 +1,3 @@
-print("Digite sua data de nascimento:") 
-dia = input("Digite o dia: ")
-mes = input("Digite o mês: ")
-ano = input("Digite o ano: ")
-print("Você nasceu no dia " + dia + " de " + mes + " de " + ano + ". Correto?")
+num1 = input('Insira o primeiro número: ')
+num2 = input('Insira o segundo número: ')
+print(num1+num2)
