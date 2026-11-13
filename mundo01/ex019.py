@@ -5,4 +5,5 @@ aluno2 = input('Digite o nome do segundo aluno: ')
 aluno3 = input('Digite o nome do terceiro aluno: ')
 aluno4 = input('Digite o nome do quarto aluno: ')
 
-aluno_sorteado = random.()
+alunos = [aluno1, aluno2, aluno3, aluno4]
+print('O aluno escolhido foi {}'.format(random.choice(alunos)))
