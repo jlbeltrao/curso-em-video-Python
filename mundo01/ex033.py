@@ -5,6 +5,3 @@ num3 = int(input('Digite o terceiro número: '))
 numeros = [num1, num2, num3]
 numeros.sort()
 print('O menor número é o {}, e o maior é o {}'.format(numeros[0], numeros[-1]))
-
-if num1 < num2 and num1 < num3:
-    numeros.
