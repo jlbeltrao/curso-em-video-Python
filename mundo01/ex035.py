@@ -12,6 +12,6 @@ else:
     print('As retas não podem formar um triângulo retângulo.') """
 
 if r1 + r2 > r3 and r1 + r3 > r2 and r2 + r3 > r1:
-    print('As retas podem formar um triângulo.')
+    print('As retas \033[32mpodem\033[m formar um triângulo.')
 else:
-    print('As retas não podem formar um triângulo')
+    print('As retas {}não{} podem formar um triângulo'.format('\033[31m', '\033[m'))
